@@ -15,6 +15,9 @@
 		D762917420D8DDD300CE659C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D762917320D8DDD300CE659C /* main.m */; };
 		D762917E20D8DDD400CE659C /* QuartzCoreLearnOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762917D20D8DDD400CE659C /* QuartzCoreLearnOCTests.m */; };
 		D762918920D8DDD400CE659C /* QuartzCoreLearnOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762918820D8DDD400CE659C /* QuartzCoreLearnOCUITests.m */; };
+		D762919920D8EBCA00CE659C /* CATransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D762919820D8EBCA00CE659C /* CATransform3DViewController.m */; };
+		D762919A20D8EBCA00CE659C /* CATransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D762919820D8EBCA00CE659C /* CATransform3DViewController.m */; };
+		D762919B20D8EBCA00CE659C /* CATransform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D762919820D8EBCA00CE659C /* CATransform3DViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		D762918420D8DDD400CE659C /* QuartzCoreLearnOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzCoreLearnOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D762918820D8DDD400CE659C /* QuartzCoreLearnOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzCoreLearnOCUITests.m; sourceTree = "<group>"; };
 		D762918A20D8DDD400CE659C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D762919720D8EBCA00CE659C /* CATransform3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransform3DViewController.h; sourceTree = "<group>"; };
+		D762919820D8EBCA00CE659C /* CATransform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransform3DViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		D762915820D8DDD300CE659C = {
 			isa = PBXGroup;
 			children = (
+				D762919620D8EB9600CE659C /* CATransform3D */,
 				D762916320D8DDD300CE659C /* QuartzCoreLearnOC */,
 				D762917C20D8DDD400CE659C /* QuartzCoreLearnOCTests */,
 				D762918720D8DDD400CE659C /* QuartzCoreLearnOCUITests */,
@@ -130,6 +136,15 @@
 				D762918A20D8DDD400CE659C /* Info.plist */,
 			);
 			path = QuartzCoreLearnOCUITests;
+			sourceTree = "<group>";
+		};
+		D762919620D8EB9600CE659C /* CATransform3D */ = {
+			isa = PBXGroup;
+			children = (
+				D762919720D8EBCA00CE659C /* CATransform3DViewController.h */,
+				D762919820D8EBCA00CE659C /* CATransform3DViewController.m */,
+			);
+			path = CATransform3D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +282,7 @@
 			files = (
 				D762916920D8DDD300CE659C /* ViewController.m in Sources */,
 				D762917420D8DDD300CE659C /* main.m in Sources */,
+				D762919920D8EBCA00CE659C /* CATransform3DViewController.m in Sources */,
 				D762916620D8DDD300CE659C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D762919A20D8EBCA00CE659C /* CATransform3DViewController.m in Sources */,
 				D762917E20D8DDD400CE659C /* QuartzCoreLearnOCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D762919B20D8EBCA00CE659C /* CATransform3DViewController.m in Sources */,
 				D762918920D8DDD400CE659C /* QuartzCoreLearnOCUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
